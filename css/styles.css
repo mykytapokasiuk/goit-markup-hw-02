@@ -1,1 +1,68 @@
+/** VARIABLES*/
+:root {
+    --main-font: "Roboto", sans-serif;
+    --primary-font-color: #434455;
+    --secondary-font-color: #2e2f42;
+}
 
+body {
+    font-family: var(--main-font);
+    color: var(--primary-font-color);
+}
+
+/**COMMON STYLES*/
+.list {
+    list-style: none;
+}
+.common-logo {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.common-link {
+    font-style: normal;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/**STYLES*/
+/*!HEADER*/
+/* .header {
+} */
+/* .header-navigation {
+} */
+.header-logo {
+    line-height: 1.33;
+    color: #4d5ae5;
+}
+.hl-span {
+    color: var(--secondary-font-color);
+}
+/* .header-list {
+} */
+/* .header-item {
+} */
+.header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-font-color);
+}
+/* .header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+} */
+.header-address-mail {
+    color: inherit;
+}
+.header-address-tel {
+    color: inherit;
+}
