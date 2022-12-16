@@ -54,7 +54,6 @@ body {
 } */
 .header-link {
     font-weight: 600;
-    font-size: 16px;
     color: var(--secondary-font-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -70,7 +69,6 @@ body {
 .header-contacts-mail,
 .header-contacts-tel {
     font-style: normal;
-    font-size: 16px;
     color: inherit;
     text-decoration: none;
     line-height: 1.5;
@@ -103,8 +101,28 @@ body {
     line-height: 1.18;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
 }
 .big-banner-btn:hover,
 .big-banner-btn:focus {
     color: var(--active-state-color);
+}
+
+/*!OUR STRENGTHS*/
+/* .our-strengths {
+}
+.our-strengths-list {
+} */
+/* .our-strengths-item {
+} */
+.our-strengths-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-font-color);
+}
+.our-strengths-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
