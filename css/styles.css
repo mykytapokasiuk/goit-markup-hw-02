@@ -3,31 +3,30 @@
     --main-font: "Roboto", sans-serif;
     --primary-font-color: #434455;
     --secondary-font-color: #2e2f42;
+    --active-state-color: #4d5ae5;
 }
 
 body {
     font-family: var(--main-font);
     color: var(--primary-font-color);
+    background-color: #ffffff;
 }
 
 /**COMMON STYLES*/
 .list {
     list-style: none;
 }
-.common-logo {
-    font-family: "Raleway";
-    font-weight: 800;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-.common-link {
-    font-style: normal;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
 }
 
 /**STYLES*/
@@ -37,8 +36,14 @@ body {
 /* .header-navigation {
 } */
 .header-logo {
-    line-height: 1.33;
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
     color: #4d5ae5;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 .hl-span {
     color: var(--secondary-font-color);
@@ -50,19 +55,56 @@ body {
 .header-link {
     font-weight: 600;
     font-size: 16px;
+    color: var(--secondary-font-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-font-color);
 }
-/* .header-address {
+.header-link:hover,
+.header-link:focus {
+    color: var(--active-state-color);
 }
-.header-address-list {
+/* .header-contacts-list {
 }
-.header-address-item {
-} */
-.header-address-mail {
+.header-contacts-item {
+}  */
+.header-contacts-mail,
+.header-contacts-tel {
+    font-style: normal;
+    font-size: 16px;
     color: inherit;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.header-address-tel {
-    color: inherit;
+.header-contacts-mail:hover,
+.header-contacts-mail:focus {
+    color: var(--active-state-color);
+}
+.header-contacts-tel:hover,
+.header-contacts-tel:focus {
+    color: var(--active-state-color);
+}
+
+/*!BIG BANNER*/
+.big-banner {
+    background-color: #2e2f42;
+}
+.big-banner-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.big-banner-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.big-banner-btn:hover,
+.big-banner-btn:focus {
+    color: var(--active-state-color);
 }
