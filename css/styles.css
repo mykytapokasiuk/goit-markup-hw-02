@@ -29,7 +29,7 @@ body {
     overflow: hidden;
 }
 
-/**STYLES*/
+/**INDEX PAGE STYLES*/
 /*!HEADER*/
 /* .header {
 } */
@@ -39,7 +39,7 @@ body {
     font-family: "Raleway";
     font-weight: 800;
     font-size: 18px;
-    color: #4d5ae5;
+    color: var(--active-state-color);
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -126,3 +126,64 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/*!OUR PROJECTS*/
+/* .our-projects {
+} */
+.our-projects-title,
+.our-team-titile {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-font-color);
+}
+/* .our-projects-list {
+}
+.our-projects-item {
+} */
+
+/*!OUR TEAM*/
+.our-team {
+    background-color: #f4f4fd;
+}
+/* .our-team-list {
+} */
+/* .our-team-item {
+} */
+.teammate-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-font-color);
+}
+.teammate-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*!FOOTER*/
+.footer {
+    background-color: var(--secondary-font-color);
+}
+.footer-logo {
+    font-family: "Raleway";
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--active-state-color);
+    text-decoration: none;
+}
+.fl-span {
+    color: #f4f4fd;
+}
+.footer-text {
+    color: #e7e9fc;
+}
+/*!----------------------------------------------------------------*/
+
+/**PORTFOLIO PAGE STYLES*/
